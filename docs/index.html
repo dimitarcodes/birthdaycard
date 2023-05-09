@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dimitar 'mechachki' Dimitrov">
+    <meta name="description" content="Birthday Card">
+    <meta name="keywords" content="Birthday">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/cake.png">
+    <title>Buon compleanno!</title>
+    <script>
+        // periodically change the tab title
+        var title = document.title;
+        var altTitle = "🥳🥳🎉🎉🎊🎊";
+        var interval = 1000;
+        var timer = setInterval(function() {
+            document.title = document.title == title ? altTitle : title;
+        }, interval);
+    </script>
+</head>
+<body>
+    <div class="card">
+        <div class="imgBox">
+            <div class="bark"></div>
+            <span>Buon comlpeanno!</span>
+        </div>
+        <div class="details">
+            <h4 class="color1">Caro Marco,</h2>
+            <h4 class="color2 margin">Buon compleanno!</h3>
+            <p>You're the smartest, sweetest,</p>
+            <p>most caring and loving person </p>
+            <p>I have the pleasure of knowing.</p>
+            <p>On your special day, I wish you</p>
+            <p>success with redefining value</p>
+            <p>and fighting off capitalism.</p>
+            <p>May the next year bring you</p>
+            <p>less UPFs, more ethical sluthood,</p>
+            <p>and even more rugby.</p>
+            <p class="text-right">Happy Birthday, amore mio!</p>
+            <p class="text-right">♥ Mitko</p>
+        </div>
+    </div>
+</body>
+</html>
