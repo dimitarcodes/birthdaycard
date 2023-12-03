@@ -1,2 +1,2 @@
-# hbdm
-Happy Birthday Marco!
+# happy birthday
+* simple birthday card website
