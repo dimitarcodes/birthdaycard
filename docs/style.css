@@ -9,7 +9,7 @@ html, body {
 body {
   font-family: 'Indie Flower', cursive !important;
   /* background: #FDE3A7; CAPE HONEY */
-  background-image: url("./images/snow.jpg");
+  background-image: url("./images/landscapebg.jpg");
   background-repeat: no-repeat; /* Do not repeat the image */
   /* background-position: center; Center the image */
   background-size: cover;
@@ -19,7 +19,7 @@ body {
 
 @media (orientation: landscape) {
     body {
-        background-image: url("./images/snow.jpg");
+        background-image: url("./images/landscapebg.jpg");
         background-repeat: no-repeat; /* Do not repeat the image */
         background-position: center;   /* Center the image */
         background-size: cover;
@@ -30,7 +30,7 @@ body {
 
 @media (orientation: portrait) {
     body {
-        background-image: url("./images/grass.jpg");
+        background-image: url("./images/portraitbg.jpg");
         background-repeat: no-repeat; /* Do not repeat the image */
         background-position: center;  /* Center the image */
         background-size: cover;
@@ -195,7 +195,7 @@ body {
   position: relative;
   transform-origin: left;
   transition: .7s;
-  background-image: url("./images/plovdiv.jpg");
+  background-image: url("./images/card.jpg");
   background-size: cover;
 }
 
